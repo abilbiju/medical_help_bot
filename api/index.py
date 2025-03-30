@@ -211,7 +211,7 @@ def analyze_lab_report(text):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('home.html')
 
 @app.route('/api/chat', methods=['POST'])
 def chat():
