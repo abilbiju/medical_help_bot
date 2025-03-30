@@ -1,5 +1,5 @@
 setuptools
-
+distutils
 # Web Framework
 Flask==2.3.3
 
